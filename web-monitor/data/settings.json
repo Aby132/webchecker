@@ -1,0 +1,15 @@
+{
+  "email": {
+    "smtp_host": "",
+    "smtp_port": 587,
+    "smtp_username": "",
+    "smtp_password": "",
+    "from_email": "",
+    "recipients": [],
+    "use_tls": true
+  },
+  "allow_private_urls": false,
+  "max_concurrent_checks": 20,
+  "log_retention_days": 31,
+  "timezone": "Asia/Kolkata"
+}

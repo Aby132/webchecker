@@ -1,0 +1,15 @@
+{
+  "engine_running": true,
+  "started_at": "2026-09-21T18:28:44.367265+00:00",
+  "last_tick_at": "2026-09-21T18:48:52.891867+00:00",
+  "checks_total": 98,
+  "incidents": {},
+  "sites": {
+    "site-ba8c9f58": {
+      "status": "UP",
+      "incident_started_at": null,
+      "last_alert_type": null,
+      "last_checked": "2026-09-21T18:48:52.389029+00:00"
+    }
+  }
+}
