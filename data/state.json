@@ -1,0 +1,26 @@
+{
+  "engine_running": true,
+  "started_at": "2026-09-22T18:29:19.956060+00:00",
+  "last_tick_at": "2026-09-22T19:48:07.043859+00:00",
+  "checks_total": 318,
+  "incidents": {
+    "site-ba8c9f58": [
+      {
+        "started_at": "2026-09-22T18:54:35.276507+00:00",
+        "ended_at": "2026-09-22T18:55:06.276016+00:00",
+        "status": "RECOVERED",
+        "status_code": null,
+        "error": "Timeout",
+        "duration_seconds": 30
+      }
+    ]
+  },
+  "sites": {
+    "site-ba8c9f58": {
+      "status": "UP",
+      "incident_started_at": null,
+      "last_alert_type": null,
+      "last_checked": "2026-09-22T19:48:06.276504+00:00"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+[Unit]
+Description=Web Monitor FastAPI
+After=network.target
+
+[Service]
+Type=simple
+User=www-data
+Group=www-data
+WorkingDirectory=/opt/web-monitor/backend
+Environment=PATH=/opt/web-monitor/backend/venv/bin
+EnvironmentFile=/opt/web-monitor/backend/.env
+ExecStart=/opt/web-monitor/backend/venv/bin/uvicorn app.main:app --host 127.0.0.1 --port 8000
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

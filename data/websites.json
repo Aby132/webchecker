@@ -1,0 +1,23 @@
+[
+  {
+    "project_id": "project-1700457e",
+    "name": "tsugitsugi",
+    "url": "https://m.tsugitsugi.com/landing",
+    "enabled": true,
+    "check_interval": 30,
+    "timeout": 10,
+    "expected_status_code": 200,
+    "alert_enabled": true,
+    "id": "site-ba8c9f58",
+    "status": "UP",
+    "last_status_code": 200,
+    "last_response_time": 540.96,
+    "last_checked": "2026-09-22T19:48:06.276504+00:00",
+    "last_error": null,
+    "last_success_at": "2026-09-22T19:48:06.276504+00:00",
+    "incident_started_at": null,
+    "next_check_at": "2026-09-22T19:48:36.276504+00:00",
+    "created_at": "2026-09-21T18:20:20.136021+00:00",
+    "updated_at": "2026-09-22T19:48:06.819829+00:00"
+  }
+]
